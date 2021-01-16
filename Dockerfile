@@ -1,4 +1,4 @@
-FROM armv7/armhf-ubuntu_core
+FROM armv7/armhf-ubuntu_core:latest
 
 RUN apt-get update && \
 	apt-get install -y python3 \
